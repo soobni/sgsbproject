@@ -20,14 +20,16 @@ you can login or sign up to our web-site
 
 ### Admin mode
 
->if you want to use admin mode the *id: admin* and the *password: admin*
++ if you want to use admin mode the *id: admin* and the *password: admin*
 
 
 ### User mode
 
-> first, sign up and login please
-> then you will be in the main page!
-> enjoy our project ;)
+<img width="912" alt="스크린샷 2020-12-09 오후 9 15 27" src="https://user-images.githubusercontent.com/61505435/101629037-1053cc80-3a64-11eb-9cc2-ee36144d6f86.png">
+
++ first, sign up and login please
++ then you will be in the main page!
++ enjoy our project ;)
 
 
 
