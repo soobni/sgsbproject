@@ -1,6 +1,6 @@
 # sgsbproject
 
-<h1> Welcome to our project!</h1>
+<h3> Welcome to our project!</h3>
   
   our project is about the program that recommend movies for users
   
