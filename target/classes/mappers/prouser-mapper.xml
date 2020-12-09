@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Prouser">
+	<insert id="insertProuser">
+		insert into Prouser (userid,password,username,email,genre,account)
+		values
+		(#{userid},#{password},#{username},#{email},#{genre},#{account})
+	</insert>
+	<update id="updateProuser">
+		update Prouser
+		set userid=#{userid},password=#{password},username=#{username},email=#{email},genre=#{genre},account=#{account}
+		where seq=#{seq}
+	</update>
+	<delete id="deleteProuser">
+		delete from Prouser where seq=#{seq}
+	</delete>
+	<select id="getProuser" resultType="Prouser">
+		select * from Prouser where seq=#{seq}
+	</select>
+	<select id="getProuserList" resultType="Prouser">
+		select * from Prouser order by seq desc
+	</select>
+	<insert id='move'>
+		insert into Login select * from Prouser
+	</insert>
+	<delete id="delete">
+		delete from Login 
+	</delete>
+
+</mapper>
