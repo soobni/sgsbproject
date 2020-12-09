@@ -20,6 +20,8 @@ you can login or sign up to our web-site
 
 ### Admin mode
 
+<img width="1081" alt="스크린샷 2020-12-09 오후 9 21 02" src="https://user-images.githubusercontent.com/61505435/101629513-d1724680-3a64-11eb-9427-5c08d6faa71f.png">
+
 + if you want to use admin mode the *id: admin* and the *password: admin*
 
 
